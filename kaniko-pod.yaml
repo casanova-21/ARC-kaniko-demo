@@ -9,7 +9,7 @@ spec:
     args:
     - "--dockerfile=Dockerfile"
     - "--context=git://github.com/casanova-21/ARC-kaniko-demo.git"
-    - "--destination=casanova-21/runner:latest"
+    - "--destination=casanova21/runner:latest"
     volumeMounts:
     - name: kaniko-secret
       mountPath: /kaniko/.docker
